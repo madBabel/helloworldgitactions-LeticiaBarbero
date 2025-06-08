@@ -14,6 +14,7 @@ jobs:
         runs-on: windows-latest
         steps:
             - name: mostrar-so
+              shell: bash
               run: |
                 echo "Este trabajo se ejecuta en el Runner de "$runner_os"
                 ls -l
