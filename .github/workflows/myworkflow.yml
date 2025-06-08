@@ -1,5 +1,6 @@
 name: WORKFLOW
-on: push
+on: #push
+    issues
 jobs:
     job:
         runs-on: ubuntu-latest
