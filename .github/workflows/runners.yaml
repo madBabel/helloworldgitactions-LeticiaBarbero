@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: mostrar-so
         run: |
-          echo "Este trabajo se ejecuta en el Runner de "$RUNNER_OS"
+          echo "Este trabajo se ejecuta en el Runner de $RUNNER_OS"
           ls -l
 
   windows-echo:
@@ -16,7 +16,7 @@ jobs:
       - name: mostrar-so
         shell: bash
         run: |
-          echo "Este trabajo se ejecuta en el Runner de "$RUNNER_OS"
+          echo "Este trabajo se ejecuta en el Runner de $RUNNER_OS"
           ls -l
 
   mac-echo:
@@ -24,6 +24,6 @@ jobs:
     steps:
       - name: mostrar-so
         run: |
-          echo "Este trabajo se ejecuta en el Runner de "$RUNNER_OS"
+          echo "Este trabajo se ejecuta en el Runner de $RUNNER_OS"
           ls -l
         
